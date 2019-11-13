@@ -1,15 +1,15 @@
 # About my project
-## BOOKCAFE 
+## BESTCOURSES 
 
 ### Responsive website for buying books,evaluation of books 
-<img alt="book" src = "https://www.qualtrics.com/m/assets/blog/wp-content/uploads/2018/08/shutterstock_1068141515.jpg">
+<img alt="book" src = https://akm-img-a-in.tosshub.com/indiatoday/images/story/201902/studies_education_learning_2.jpeg?wOM8J.O9eo2h744k51I38HwkiykDIiMh">
 
 ## Features
 
-- see the leatest books
-- search for books
+- see the leatest COURSES
+- search for courses
 - Write and see reviews
-- You can see books ratings
+- You can see courses ratings
 
 ## Technologies:
 
