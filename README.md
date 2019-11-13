@@ -1,7 +1,7 @@
 # About my project
 ## BESTCOURSES 
 
-### Responsive website for buying books,evaluation of books 
+### GET THE COURSE THAT YOU WANT . 
 <img alt="book" src = " https://akm-img-a-in.tosshub.com/indiatoday/images/story/201902/studies_education_learning_2.jpeg">
 
 ## Features
