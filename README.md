@@ -2,7 +2,7 @@
 ## BESTCOURSES 
 
 ### Responsive website for buying books,evaluation of books 
-<img alt="book" src = https://akm-img-a-in.tosshub.com/indiatoday/images/story/201902/studies_education_learning_2.jpeg?wOM8J.O9eo2h744k51I38HwkiykDIiMh">
+<img alt="book" src = https://akm-img-a-in.tosshub.com/indiatoday/images/story/201902/studies_education_learning_2.jpeg">
 
 ## Features
 
