@@ -1,15 +1,15 @@
 # About my project
-## BESTCOURSES 
+## FilmMonster 
 
-### GET THE COURSE THAT YOU WANT . 
-<img alt="book" src = " https://akm-img-a-in.tosshub.com/indiatoday/images/story/201902/studies_education_learning_2.jpeg">
+### Responsive website for watching movies, communication, evaluation of films amd registration
+<img alt="movie" src = "https://dcmp.org/images/learning_center/34/34-1.jpg">
 
 ## Features
 
-- see the leatest COURSES
-- search for courses
+- Registration
+- Watch Movie
 - Write and see reviews
-- You can see courses ratings
+- You can see Films ratings
 
 ## Technologies:
 
@@ -26,7 +26,7 @@
 ### Plan for week 9 - start BackEnd (SQL)
 ### Plan for week 10 - Javascript
 ### Plan for week 11 - CodeIgniter Framework
-### Plan for week 12 - Add the other pages search and books and contact
+### Plan for week 12 - Add TV-serial page
 ### Plan for week 13 - Finish registrtion system\
 ### Plan for week 14 - Optimization FrontEnd and Backend
 ### Pland for week 15- Finish project
