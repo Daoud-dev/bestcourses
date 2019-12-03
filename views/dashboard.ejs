@@ -1,0 +1,15 @@
+<%-include("header")-%>
+<a href="/users/logout" class="btn btn-primary" style="float: left;">Logout</a>
+<a href="/" class="btn btn-primary" style="float: left;">Home</a>
+
+<form action="/delete" method="post">
+	<input type="text" class="form-control" name="id" value="<%= user._id %>" hidden>
+	<button type="submit" class="btn btn-danger"> Delete Account </button>
+	<h1 style="text-align: center;padding-top:30px">Hi <span style="color:red"><%= user.name %></span> Welcome </h1>
+</form>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
