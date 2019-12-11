@@ -1,15 +1,79 @@
-<%-include("header")-%>
-<a href="/users/logout" class="btn btn-primary" style="float: left;">Logout</a>
-<a href="/" class="btn btn-primary" style="float: left;">Home</a>
+<!DOCTYPE html>
+<html lang="en">
 
-<form action="/delete" method="post">
-	<input type="text" class="form-control" name="id" value="<%= user._id %>" hidden>
-	<button type="submit" class="btn btn-danger"> Delete Account </button>
-	<h1 style="text-align: center;padding-top:30px">Hi <span style="color:red"><%= user.name %></span> Welcome </h1>
-</form>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<head>
+	<title>Login V1</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" href="./css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./css/font-awesome.min.css" />
+	<link rel="stylesheet" href="./css/owl.carousel.css" />
+	<link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+	<header class="header-section">
+		<div class="container" style='margin-left: 206px;'>
+			<div class="row">
+				<div class="col-lg-3 col-md-3">
+					<div class="site-logo">
+						<img src="img/logo.png" alt="">
+					</div>
+					<div class="nav-switch">
+						<i class="fa fa-bars"></i>
+					</div>
+				</div>
+				<div class="col-lg-9 col-md-9">
+					<nav class="main-menu">
+						<ul>
+							<form action="/delete" method="post">
+								<input type="text" class="form-control" name="id" value="<%= user._id %>" hidden>
+								<li><a href="/">Home</a></li>
+								<li><a href="/courses">Courses</a></li>
+								<li><a href="/contact">Contact</a></li>
+								<li><a href="/users/logout">Logout</a></li>
+								<li><a href="/setting">Setting</a></li>
+								<li><a><button type="submit" class="btn btn-danger"> Delete Account </button></a></li>
+							</form>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="limiter">
+		<div class="container-login100">
+			<h2 style="text-align: left;">Hi <span style="color:white"><%= user.name %></span> Welcome
+			</h2>
+		</div>
+	</div>
+
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/mixitup.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>

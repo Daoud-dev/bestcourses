@@ -13,6 +13,24 @@ router.get('/dashboard', ensureAuthenticated, (req, res) =>
   })
 );
 
+router.get("/edit", (req, res) => res.render("edit", { user: req.user }));
+router.get("/setting", (req, res) => res.render("setting", { user: req.user }));
+
+router.post("/edit", (req, res) => {
+  const { name, email } = req.body;
+  const id = { _id: req.body.id };
+  const updateItem = { $set: { name: name, email: email } };
+  User.updateOne(id, updateItem, (err) => {
+    if (err) {
+      console.log(err);
+
+    } else {
+      res.redirect("/setting");
+      console.log("Settings updated");
+    }
+  });
+});
+
 router.post("/delete", (req, res) => {
   const deleteItem = req.body.id;
   User.findByIdAndDelete(deleteItem, (err) => {
