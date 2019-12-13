@@ -1,15 +1,15 @@
 # About my project
-## FilmMonster 
+## online courses
 
-### Responsive website for watching movies, communication, evaluation of films amd registration
-<img alt="movie" src = "https://dcmp.org/images/learning_center/34/34-1.jpg">
+### Responsive website for getting online courses, communication, evaluation of courses amd registration
+
 
 ## Features
 
 - Registration
-- Watch Movie
+- get your course
 - Write and see reviews
-- You can see Films ratings
+- You can see course comment
 
 ## Technologies:
 
